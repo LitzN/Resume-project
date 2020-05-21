@@ -3,6 +3,7 @@
 header{
     margin:0;
 }
+
 .logo{
     background:url("../images/rosie.jpg");
     background-position:center;
@@ -15,5 +16,5 @@ header{
 }
 
 .bg-color-name-title{
-    
+    background-color:#676767;
 }
