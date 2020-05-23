@@ -18,6 +18,10 @@
     background-color:#9b59b6;
 }
 
+.bg-color-contact{
+    background-color:#fff;
+}
+
 .ui-menu-color-home{
     background-color:#e67e22;   
 }
@@ -79,7 +83,7 @@ header{
 }
 
 .logo{
-    background:url("https://d2172669-0ca9-4787-a69a-b1c60a336348.ws-eu01.gitpod.io/mini-browser/workspace/Resume-project/assets/images/rosie.jpg");
+    background:url("../images/rosie.jpg");
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -321,5 +325,34 @@ transition: all 0.35s ease-in-out;
 }
 
 .history-items{
-    margin:30px;
+    margin-bottom:20px;
 }
+
+/*--------------------------Contact Form*/
+
+.contact-heading{
+    font-family="exo", sans-serif;
+    font-weight:300;
+    margin-top:25px;
+    margin-bottom:20px;
+}
+
+.center-form{
+    padding-top:10px;
+    margin:0 auto;
+    width:70%;
+}
+
+button[type="submit"]{
+    margin-top:15px;
+    margin-bottom:20px;
+    color:#fafafa;
+    background:#e84610;
+}
+
+#projectsummary{
+    width:100%;
+}
+
+/*--------------------------Media Queries*/
+
